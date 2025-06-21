@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
     private ActivityMainBinding binding;
     private GeminiApiService geminiApiService;
     private ProgressBar progressBar;
-    private final String GEMINI_API_KEY = "AIzaSyAwbz9L2QwLfH7ZWw_Z_q4AlIJBoBhQCO8"; //replace with your actual API KEY
+    private final String GEMINI_API_KEY = ""; //replace with your actual API KEY
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
