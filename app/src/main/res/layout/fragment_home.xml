@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Hello, Dear Student"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#444444"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Buttons for BT1 (Initially Hidden) -->
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="16dp"
+        android:text="ODD SEM"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00BCD4"
+        app:strokeWidth="2dp"
+        app:strokeColor="#0097A7"
+        app:cornerRadius="12dp"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toStartOf="@id/bt2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/text_home" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:text="EVEN SEM"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#00BCD4"
+        app:strokeWidth="2dp"
+        app:strokeColor="#0097A7"
+        app:cornerRadius="12dp"
+        android:elevation="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bt1"
+        app:layout_constraintTop_toBottomOf="@id/text_home" />
+
+    <!-- Buttons for BT2 (Initially Hidden) -->
+
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#050000"
+        android:elevation="6dp"
+        android:text="SEM 1"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt1"
+        app:layout_constraintTop_toBottomOf="@id/bt1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt1_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#050000"
+        android:elevation="6dp"
+        android:text="SEM 3"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt1"
+        app:layout_constraintTop_toBottomOf="@id/bt1_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt1_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#050000"
+        android:elevation="6dp"
+        android:text="SEM 5"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt1"
+        app:layout_constraintTop_toBottomOf="@id/bt1_2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt1_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#050000"
+        android:elevation="6dp"
+        android:text="SEM 7"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt1"
+        app:layout_constraintTop_toBottomOf="@id/bt1_3" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt2_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#050000"
+        android:elevation="6dp"
+        android:text="SEM 2"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt2"
+        app:layout_constraintTop_toBottomOf="@id/bt2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt2_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#050000"
+        android:elevation="6dp"
+        android:text="SEM 4"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt2"
+        app:layout_constraintTop_toBottomOf="@id/bt2_1" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt2_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#0B0000"
+        android:elevation="6dp"
+        android:text="SEM 6"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt2"
+        app:layout_constraintTop_toBottomOf="@id/bt2_2" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt2_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#070000"
+        android:elevation="6dp"
+        android:text="SEM 8"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:visibility="gone"
+        app:cornerRadius="30dp"
+        app:strokeColor="#CCCCCC"
+        app:strokeWidth="1dp"
+        app:layout_constraintStart_toStartOf="@id/bt2"
+        app:layout_constraintTop_toBottomOf="@id/bt2_3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

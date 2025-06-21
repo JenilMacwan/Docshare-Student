@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1085819336845",
+    "project_id": "docsharee-1b696",
+    "storage_bucket": "docsharee-1b696.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1085819336845:android:b574f4a8bea94a3c594ac4",
+        "android_client_info": {
+          "package_name": "com.example.student"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLibu-ttbDZlFm9LjmNt1_FK1qvVSfqaA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
