@@ -11,8 +11,8 @@ The **DOCSHARE Student App** is designed to help students easily upload and acce
 
 ## 📱 Features
 
-- 📤 Upload assignments, notes, and reports
-- 📥 View documents shared by faculty
+- 📤 Find assignments, notes, and reports in oneplace
+- 📥 View and Download documents shared by faculty
 - 🔄 Real-time sync with Firebase
 - 🤖 Built to support Gemini API for smart query solving and research *(integration required)*
 - 🎓 Simple, clean, and student-friendly interface
@@ -23,8 +23,8 @@ The **DOCSHARE Student App** is designed to help students easily upload and acce
 
 - **Language:** Java  
 - **UI:** XML Layouts  
-- **Database:** Firebase Realtime Database  
-- **AI Features:** Gemini API *(optional but recommended)*  
+- **Database:** Firebase Database
+- **AI Features:** Gemini API *(recommended)*  
 - **IDE:** Android Studio
 
 ---
