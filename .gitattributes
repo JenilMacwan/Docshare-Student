@@ -1,0 +1,4 @@
+# Force GitHub to recognize languages in Android projects
+*.java linguist-language=Java
+*.kt linguist-language=Kotlin
+*.xml linguist-language=XML
